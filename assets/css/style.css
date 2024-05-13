@@ -67,7 +67,7 @@ a {
 .contact {
     top: 75%;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
 }
 
 .contact-btn {
@@ -89,7 +89,15 @@ a {
 
 
 /* SECTION APPROCHE */
-h2 {
+#approach h2 {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+#approach h4 {
+    font-weight: 700; 
+}
+/* h2 {
     text-align: center;
     margin-top: 2%;
     text-transform: uppercase;
@@ -111,12 +119,12 @@ p {
     display: flex;
     flex-direction: column;
     margin: 0;
-}
+} */
 
 
 
 /* SECTION METHODE */
-.content {
+/* .content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -130,5 +138,5 @@ p {
 
 span {
     font-weight: bold;
-}
+} */
 

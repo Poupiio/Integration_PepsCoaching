@@ -13,7 +13,7 @@
 <body>
 
     <header>
-        <nav class="navbar navbar-expand-md p-3">
+        <nav class="navbar navbar-expand-lg p-3">
             <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="assets/img/Logo.png" alt="Bootstrap" width="70" height="70" class="ms-4">
@@ -47,46 +47,55 @@
     <main>
         <div id="banner" class="container-fluid">
             <div class="row">
-                <div class="col-8 position-absolute title">
+                <div class="col-xl-8 col-lg-10 col-md-12 col-sm-10 position-absolute title">
                     <h1>Réenchantons notre vision du travail</h1>
                 </div>
             </div>
             <div class="row">
-                <div class="col-2 position-absolute contact">
+                <div class="col-sm-6 col-4 text-center position-absolute contact">
                     <button class="btn contact-btn">Contactez-nous</button>
                 </div>
             </div>
         </div>
 
-        <section id="approach">
-            <h2>Notre approche Pep's Coaching</h2>
-            <p>À qui s'adresse notre coaching professionnel ?</p>
-            <div class="approach-container">
-                <div class="img-coaching">
-                    <img src="assets/img/visuel ntre approchue.jpg" alt="coaching picture">
+        <div id="approach" class="container">
+            <div class="row text-center my-4">
+                <h2>Notre approche Pep's Coaching</h2>
+                <p>À qui s'adresse notre coaching professionnel ?</p>
+            </div>
+            <div class="row">
+                <div class="col-6 img-coaching">
+                    <img src="assets/img/visuel ntre approchue.jpg" alt="coaching picture" class="img-fluid" width="100%">
                 </div>
-                <div class="approach-lists">
-                    <h4>Vous êtes DRH - Managers et vous souhaitez :</h4>
-                    <ul class="drh">
-                        <li>Accompagner vos collaborateurs vers plus d'engagement</li>
-                        <li>Développer le collectif en vous appuyant sur la singularité de chacun</li>
-                        <li> Stimuler les ambitions et l'empowerment au sein de votre organisation</li>
-                    </ul>
-                    <h4>Vous êtes salarié en poste, entrepreneur ou en transition et vous souhaitez :</h4>
-                    <ul class="candidat">
-                        <li>- Vous épanouir dans votre activité professionnelle</li>
-                        <li>Trouver ou retrouver du sens</li>
-                        <li>Booster votre carrière</li>
-                        <li>Identifier de nouvelles trajectoires possibles</li>
-                    </ul>
+                <div class="col-6 my-auto">
+                    <div class="row mb-4">
+                        <h4>Vous êtes DRH - Managers et vous souhaitez :</h4>
+                        <ul class="drh">
+                            <li>- Accompagner vos collaborateurs vers plus d'engagement</li>
+                            <li>- Développer le collectif en vous appuyant sur la singularité de chacun</li>
+                            <li>- Stimuler les ambitions et l'empowerment au sein de votre organisation</li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <h4>Vous êtes salarié en poste, entrepreneur ou en transition et vous souhaitez :</h4>
+                        <ul class="candidat">
+                            <li>- Vous épanouir dans votre activité professionnelle</li>
+                            <li>- Trouver ou retrouver du sens</li>
+                            <li>- Booster votre carrière</li>
+                            <li>- Identifier de nouvelles trajectoires possibles</li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-        </section>
+        </div>
+        <div class="container mx-auto my-5 text-center">
+            <img src="assets/img/Ligne.png" alt="" class="img-fluid">
+        </div>
 
         <section id="method">
             <div class="method-container">
                 <div class="method-content">
-                    <img src="assets/img/Ligne.png" alt="">
+                    <!-- <img src="assets/img/Ligne.png" alt=""> -->
                     <h2>La méthode Pep's est faite pour vous !</h2>
                     <p>Agir simultanément sur les leviers <strong>Plaisir - Empowerment - Potentiel et Sens</strong></p>
                     <p>Cette méthode est notre ADN et donc à la base de toutes nos interventions</p>
